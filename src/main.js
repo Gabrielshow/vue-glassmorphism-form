@@ -1,5 +1,5 @@
 import './assets/main.css'
-import InlineSvg from 'vue-inline-svg'
+// import InlineSVG from 'vue-inline-svg'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -11,6 +11,5 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
-app.use(InlineSvg)
 
 app.mount('#app')
