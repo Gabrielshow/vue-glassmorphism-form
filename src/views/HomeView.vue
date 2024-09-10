@@ -1,9 +1,9 @@
 <script setup>
-import AppCard from '@/components/AppCard.vue'
+import AppForm from '@/components/AppForm.vue'
 </script>
 
 <template>
   <main>
-    <AppCard />
+    <AppForm />
   </main>
 </template>
