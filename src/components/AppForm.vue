@@ -178,7 +178,13 @@
 
 .super {
   background: linear-gradient(to right, #14153c 0%, #03217b 79%);
-  border-radius: 20px;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 55%;
+  height: 3rem;
+  border: none;
+  color: white;
 }
 
 .loginwith {
@@ -234,9 +240,70 @@
 .xbackground {
   background: linear-gradient(to right, #55c1e1 0%, #35a9c3 100%);
 }
+
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 80vw;
+    height: 90vh;
+  }
+
+  .horizontalrule {
+    margin-bottom: 0.3rem;
+  }
+
+  .loginwith {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .container {
+    width: 80vw;
+    height: 90vh;
+  }
+  .loginwith {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 411px) {
+  .container {
+    width: 80vw;
+    height: 90vh;
+  }
+}
+
+@media only screen and (min-width: 758px) {
+  .container {
+    width: 80vw;
+    height: 80vh;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 70vw;
+    height: 50vh;
+  }
+
+  .horizontalrule {
+    margin-bottom: 0.3rem;
+  }
+
+  .loginwith {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 80vw;
+    height: 90vh;
+  }
+}
 </style>
 <script>
-import IconFacebook from '@/components/icons/IconFacebook.vue'
-import IconInstagram from '@/components/icons/IconInstagram.vue'
-import IconX from '@/components/icons/IconX.vue'
+// import IconFacebook from '@/components/icons/IconFacebook.vue'
+// import IconInstagram from '@/components/icons/IconInstagram.vue'
+// import IconX from '@/components/icons/IconX.vue'
 </script>
